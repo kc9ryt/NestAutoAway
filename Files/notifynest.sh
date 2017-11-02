@@ -2,7 +2,7 @@
 #
 # Sample script to communicate latest away status to nest.com
 #
-# Uses nest.py from https://github.com/jsquyres/pynest
+# Uses nest.py
 #
 BIN=$(readlink -f $(dirname $0))
 

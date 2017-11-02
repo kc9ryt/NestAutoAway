@@ -3,23 +3,7 @@
 
 ################################################################################
 #
-#  Copyright (C) 2013 Neil MacLeod (autoaway@nmacleod.com)
-#
-#  This Program is free software; you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License as published by
-#  the Free Software Foundation; either version 2, or (at your option)
-#  any later version.
-#
-#  This Program is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-#  GNU General Public License for more details.
-#
-#  You should have received a copy of the GNU General Public License
-#  along with this program; if not, write to the Free Software
-#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-#
-#  https://github.com/MilhouseVH/autoaway.py
+#  https://github.com/kc9ryt/NestAutoAway
 #
 ################################################################################
 
@@ -694,8 +678,7 @@ def autoUpdate(args):
 def init():
   global GITHUB, ANALYTICS, VERSION, VERBOSE
 
-  GITHUB = "https://raw.github.com/MilhouseVH/autoaway.py/master/"
-  ANALYTICS = "http://goo.gl/ZTe1mN"
+  GITHUB = "https://raw.github.com/kc9ryt/NestAutoAway/master/"
   VERSION = "0.1.0"
 
   parser = argparse.ArgumentParser(description="Manage auto-away status based on presence of mobile devices",
