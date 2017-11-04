@@ -679,6 +679,7 @@ def init():
   global GITHUB, ANALYTICS, VERSION, VERBOSE
 
   GITHUB = "https://raw.github.com/kc9ryt/NestAutoAway/master/"
+  ANALYTICS = "https://goo.gl/aBvfcf"
   VERSION = "0.1.0"
 
   parser = argparse.ArgumentParser(description="Manage auto-away status based on presence of mobile devices",
